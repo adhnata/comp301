@@ -1,0 +1,132 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+/* Main content area */
+ .background {
+     -fx-background-color: #1ee8b6;
+     -fx-padding: 5px;
+ }
+
+  .navigation {
+      -fx-background-color: #ECECEC;
+      -fx-border-color: #BFBFBF;
+      -fx-border-width: 5;
+      -fx-font-size: 10;
+      -fx-font-weight: bold;
+      -fx-text-fill: #333333;
+      -fx-min-width: 50px;
+      -fx-min-height: 30px;
+      -fx-alignment: CENTER;
+  }
+
+
+ .grid {
+     -fx-background-color: #0acb10;
+     -fx-padding: 10px;
+     -fx-alignment: CENTER;
+     -fx-border-color: #f5ed16;
+     -fx-border-width: 10px;
+ }
+
+ .button {
+     -fx-background-color: #fca53e;
+     -fx-vgap: 10px;
+     -fx-alignment: CENTER_RIGHT;
+ }
+
+ .corridor:hover {
+     -fx-background-color: #fadc4e;
+ }
+
+ .navigation:hover {
+     -fx-background-color: #fadc4e;
+ }
+
+ .lamp:hover {
+     -fx-background-color: #700e1c;
+ }
+
+
+ .tile {
+     -fx-pref-width: 30px;
+     -fx-pref-height: 30px;
+     -fx-font-size: 45px;
+     -fx-alignment: CENTER;
+     -fx-text-fill: #eeeeee;
+     -fx-background-color: #00FF00;
+ }
+
+ .title {
+     -fx-text-fill: #fca53e;
+     -fx-font-size: 50px;
+     -fx-text-alignment: CENTER;
+ }
+
+ .subtitle {
+     -fx-text-fill: #fca53e;
+     -fx-font-size: 15px;
+     -fx-text-alignment: CENTER;
+ }
+
+ .corridor {
+     -fx-background-color: #00FF00;
+     -fx-border-color: #fca53e;
+     -fx-border-width: 5;
+     -fx-font-size: 15;
+     -fx-font-weight: bold;
+     -fx-text-fill: #fca53e;
+     -fx-min-width: 45px;
+     -fx-min-height: 45px;
+ }
+
+  .lamp {
+      -fx-background-color: #bda976;
+      -fx-border-color: #BFBFBF;
+      -fx-border-width: 5;
+      -fx-font-size: 15;
+      -fx-font-weight: bold;
+      -fx-text-fill: #000000;
+      -fx-min-width: 45px;
+      -fx-min-height: 45px;
+  }
+
+ .wall {
+     -fx-background-color: #FFFFFF;
+     -fx-border-color: #BFBFBF;
+     -fx-border-width: 5;
+     -fx-font-size: 15;
+     -fx-font-weight: bold;
+     -fx-text-fill: #bdbdbd;
+     -fx-min-width: 45px;
+     -fx-min-height: 45px;
+ }
+
+ .lit {
+     -fx-background-color: #f9ee37;
+     -fx-border-color: #f9ee37;
+     -fx-border-width: 5;
+     -fx-font-size: 15;
+     -fx-font-weight: bold;
+     -fx-text-fill: #000000;
+     -fx-min-width: 45px;
+     -fx-min-height: 45px;
+ }
+
+
+
+ .invalid {
+     -fx-background-color: #ff0000;
+     -fx-border-color: #BFBFBF;
+     -fx-border-width: 5;
+     -fx-font-size: 15;
+     -fx-font-weight: bold;
+     -fx-text-fill: #333333;
+     -fx-min-width: 15px;
+     -fx-min-height: 15px;
+ }
+
+
